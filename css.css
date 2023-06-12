@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.nature {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+padding: 50px 0;
+background-color: rgb(189, 232, 232);
+}
+.nature__img {
+    background-image: url('img/nature1.jpg');
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.nature__wrap {
+    display: flex; 
+    padding-bottom: 25px;
+    width: 60%;
+    justify-content: space-between;
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+.descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img2 {
+    background-image: url('img/nature2.jpg');
+}
+.img3 {
+    background-image: url('img/nature3.jpg');
+}
