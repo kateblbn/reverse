@@ -35,3 +35,15 @@ background-color: rgb(189, 232, 232);
 .img3 {
     background-image: url('img/nature3.jpg');
 }
+
+
+
+
+.pushArray {
+    display: flex;
+    flex-direction: column;
+    margin:50px 0 0 50px;
+}
+.surname {
+    margin-bottom: 10px;
+}
